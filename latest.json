@@ -1,31 +1,31 @@
 {
-  "version": "0.1.0-beta.4",
-  "notes": "# DevClash 0.1.0-beta.4\n\nCloud sync is easier to find, understand and control, with a clearer on/off switch that stays visible on Linux as well as Mac and Windows.\n\n- When cloud sync is off, the dashboard offers **Enable Cloud Sync** and explains how eligible synced tokens can be converted into Build Credits in the web dashboard.\n- Account settings show a larger **On / Off** switch, describe what is uploaded, and follow the app's light or dark appearance.\n- Click the footer's cloud status to open settings. Off, pending, error and completed-sync states now have distinct indicators.\n- A failed preference change keeps the confirmed setting and lets you retry. Cloud uploads and public rankings remain separate choices.\n- Choose an owned project in your cloud account to assign new Claude, Codex and OpenCode usage until you switch or stop the project session. Cursor account-wide snapshots remain unassigned.\n- History uploads use batched server ingestion for less database work while preserving deduplication and recoverable progress.\n\nExisting preferences and optional cloud-sync consent are preserved. This remains a beta. Windows can show a SmartScreen reputation warning despite valid publisher signing. Linux native validation targets XFCE/X11; Wayland and physical Intel Mac coverage remain limited.\n\n- Simplified cloud account panel with expandable details and no large cloud header icon.\n- Sync status hover uses color and background feedback without an underline.\n\nBuilt locally on Mac, Linux and Windows. Desktop and signing inputs verified byte-for-byte against committed source 4d6ed0cf3f9a159373f6ac97f51523ed0bdc3d97.\n",
-  "pub_date": "2026-10-09T14:12:40.318366+00:00",
+  "version": "0.1.0-beta.5",
+  "notes": "# DevClash 0.1.0-beta.5\n\nYour available Rank Battle position now appears directly below the usage summary and above Providers, so it is easier to find.\n\n- Respects the existing rank visibility preference.\n- Preserves account, sync consent, and display settings.\n- Includes the simplified cloud account panel and sync-status hover without an underline from beta.4.\n\nThis remains a beta. Windows may show a SmartScreen reputation warning despite valid signing. Linux packaging targets x64; physical Intel Mac and Wayland runtime coverage remain limited.\n\nBuilt locally on native Mac, Windows and Linux. Source commit: 1237da70b5b66cd43fdb75ac9bd04c578ff9aac7.\n",
+  "pub_date": "2026-10-09T15:34:47.825840+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.4/macos-aarch64-DevClash.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ekRzbG5GTWZmZ2tZYlVyb1BpL0NqZW9ldnJMVGVSUmUrbitGcTVWVlEwQmRUeUZXU2VDNENQaTBrQWtDa25Wb0N3SVp5UmJPK3B0MFpUcE5UYk9kM3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTUzNTc1CWZpbGU6RGV2Q2xhc2guYXBwLnRhci5negl2ZXJzaW9uOjAuMS4wLWJldGEuNAowWHFTVmJzZFpsSFU0aGdpd2RjRHphT0NqeHpBMUFHTERVY0lTSEprSkFKOWhDbEZ5T1BueVM0VmNyaW0zT3l5N3NSaExUbzBBNXJPdEpIaEFxRDZEUT09Cg=="
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.5/macos-aarch64-DevClash.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2eko4V3dzcmg4Y0U1Mk5pZzlDR1Zvd1VBYmlYamljMStRQ3JuNXpON2xmRGZUKzF6ZCtuUkdFdmd2NjU0NUJmaDhhTFVwbVM2RHNJdXpBQUtxZTF6WGd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTU5NDAxCWZpbGU6RGV2Q2xhc2guYXBwLnRhci5negl2ZXJzaW9uOjAuMS4wLWJldGEuNQpjOE1pNTFoSXYrYkI0Ky9adGdtUE9HZXRxdWVmR2NqdnVSN3NqKzFrSHVwNmNsbVR4S3lnZWFaejZiOFZoSUlabm5CZHJGYnI1Wi9lWUxkLzdhZ1hDZz09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.4/macos-x86_64-DevClash.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ek9tZUJJN01hSlAxUkN5Vm5zU21raXNkbHdOUlB4aTlpa05nR2w1UGhGSDMwclo2dDBIdVc0NUM0OU9zVjJyS3Rlb05BakRTSFBrcitHa2tRNTJucXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTUzNjY0CWZpbGU6RGV2Q2xhc2guYXBwLnRhci5negl2ZXJzaW9uOjAuMS4wLWJldGEuNApqNlpDdUVZNXFtbFlPRlJlZGxOK0pEV3BtMURUUnJNN1ZqQTlNd1YwOHVVWi96cCtRWHZKNFMrZVM3OWJvUjJLME5iZFBpSFpxTk1sOGNVTkw5SlNDUT09Cg=="
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.5/macos-x86_64-DevClash.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ekRma1B0TkdaMWR6QlZLNFJqRFZ6cURRTTlobGx3TFROcVAxVkxjdmwwNmJPakZVTS9QWTUzL1Q5b0tJTVNYYmFROXlTTTdvRjVpZTJHQUZnT3AwT2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTU5NTAwCWZpbGU6RGV2Q2xhc2guYXBwLnRhci5negl2ZXJzaW9uOjAuMS4wLWJldGEuNQpmRDdELzlVRjZjWWxia1lkUmx4WFhvOWo5MHo4THE4ZkI2Z2JBckFaMkdGdlNoSjZ4SVZNcThKY1BhMHNMVUg1TzVQZXcyRXAxeFlyeGtkSE5teFNBUT09Cg=="
     },
     "windows-x86_64": {
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.4/windows-x86_64-DevClash_0.1.0-beta.4_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ek9GWUFSczI2L291TFRidUtTNmludHFHL3RuV3ZRM0lTbkpQWWNnWVJBUURxNDlvR1lEL09lTVZjenprbk5aQUROQkhKWmJmWFl4K3pXZ2VXVHdLUWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTU0ODM0CWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS40X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMC1iZXRhLjQKTm5VaHRQYXY0QnllS2RwVGdpNndFaGhPNXBUcG1LTytRazIxTFozOGI0NUNaRWpId29lVW02N29QZ1dxVjF6L0h2ZEZ3clRxSGdzckFWcGRudG1nQUE9PQo="
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.5/windows-x86_64-DevClash_0.1.0-beta.5_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ekk0TlRNeXhqcVg0ZVlsMElpdm1xbXc2SmlZZ2JCa2JRNHh6aXQ0amlzRnkweTlHZTFSSlRTb3pvTUlDUS8zVDF4MHExUjJFWVdoQ1NjNTFKTkM4OVF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTYwMDU1CWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS41X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMC1iZXRhLjUKS3hhcm4vRDdCRkkzTHpmUm9DNjdGaE9ldXY4dzU0dERlYzdTdG1HU3h1M0VRWERLQnkrbU5VdjNTNU5GQ0w5dElZOGVzNStnV3daTmRCbC9uMXh1Qnc9PQo="
     },
     "linux-x86_64": {
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.4/linux-x86_64-DevClash_0.1.0-beta.4_amd64.AppImage",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ekJWMkUxRmNJYTgrSmcxYk1IUy9ra3lpaUtLOTJobUZUbXRtaHRMT1paOFU4bkpoaVdabGlqdDlybkRNMmQzVDdmQ3EyWXFQV1I2K2ZpdlpkbXZvU1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTUzNjE0CWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS40X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjAtYmV0YS40CnRKNVNLY2JvL2lIcUlYd0E2TkdpM0JsdnQrM2pYK2MvWFpxaEtYVW1lTUxjMDBZWFBDQTVGdGtwaDNFUHhkdnBVODRVZU9wbk01bGdveldhaWhFM0F3PT0K"
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.5/linux-x86_64-DevClash_0.1.0-beta.5_amd64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ektZUi84Unk4QUw5VmI3citTSUIvVksxdkFoUjhuY3NNTFRyYzBmaFNhdnFmNWlYeVgyd3k4QlpZbGlrbC9YVStGbndWSTNMNFFIQVBJMDg5SEw4TUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTU5NDY4CWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS41X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjAtYmV0YS41Cjk1RlJBZDFZQVQ2YUdHUERISEs2c2R4UDl4RStmSzN1bkI3VHFCWjB0R3cwd1I3dDNtVnIwQ2I5aUxlN1dZNnR1Z0pVY3NJZm05TVhzNnVnanpoTkF3PT0K"
     },
     "linux-x86_64-appimage": {
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.4/linux-x86_64-DevClash_0.1.0-beta.4_amd64.AppImage",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ekJWMkUxRmNJYTgrSmcxYk1IUy9ra3lpaUtLOTJobUZUbXRtaHRMT1paOFU4bkpoaVdabGlqdDlybkRNMmQzVDdmQ3EyWXFQV1I2K2ZpdlpkbXZvU1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTUzNjE0CWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS40X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjAtYmV0YS40CnRKNVNLY2JvL2lIcUlYd0E2TkdpM0JsdnQrM2pYK2MvWFpxaEtYVW1lTUxjMDBZWFBDQTVGdGtwaDNFUHhkdnBVODRVZU9wbk01bGdveldhaWhFM0F3PT0K"
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.5/linux-x86_64-DevClash_0.1.0-beta.5_amd64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ektZUi84Unk4QUw5VmI3citTSUIvVksxdkFoUjhuY3NNTFRyYzBmaFNhdnFmNWlYeVgyd3k4QlpZbGlrbC9YVStGbndWSTNMNFFIQVBJMDg5SEw4TUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTU5NDY4CWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS41X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjAtYmV0YS41Cjk1RlJBZDFZQVQ2YUdHUERISEs2c2R4UDl4RStmSzN1bkI3VHFCWjB0R3cwd1I3dDNtVnIwQ2I5aUxlN1dZNnR1Z0pVY3NJZm05TVhzNnVnanpoTkF3PT0K"
     },
     "linux-x86_64-deb": {
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.4/linux-x86_64-DevClash_0.1.0-beta.4_amd64.deb",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ekNXdWhzN25ieHdZc0xJT1o3cTdxTFpmUTd4dE94WU5TSjhzcnJsUnJvcUR4T2NpcDdCekdHajNvZHBoVlNSaUFBSlF5enVrRjF6bmZGRERYUXNTbmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTUzNjE0CWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS40X2FtZDY0LmRlYgl2ZXJzaW9uOjAuMS4wLWJldGEuNApPa04zSEVySSs5TlNSVG1oMTdyTDhBNUtTYjlEOGo4UWcxeDZ1TXpYUEpZa05pZFEvTVdGclMrdnYyV2RIcDNoZ0daN2Z4YjJWODkzL0JWSlQ4ZkpEQT09Cg=="
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.5/linux-x86_64-DevClash_0.1.0-beta.5_amd64.deb",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ekJRd0hZcFFvcWRIZkVIWFFHN3BzeWFLMklwS1Qya3lJZnNZVTJaaVVISTg4MGwyZnl6emxrMXpacU02WG5lVXQ4Wi8rdlpKMjFJeHZzMGhKdmlXdmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTU5NDY4CWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS41X2FtZDY0LmRlYgl2ZXJzaW9uOjAuMS4wLWJldGEuNQpEbWQybEhwTkZ4NExTVWxramFncFhjdDdLSlBwRlU0dE8vSm1kWm9wTWxRQk5DSHY1ZnNaOW1yY1R0Tlg2WE42bGVsRTQ5ZjVzTUxxd05hWTA3bEhEZz09Cg=="
     }
   },
   "downloads": [
@@ -33,36 +33,36 @@
       "platform": "macos",
       "arch": "aarch64",
       "kind": "dmg",
-      "name": "macos-aarch64-DevClash_0.1.0-beta.4_aarch64.dmg",
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.4/macos-aarch64-DevClash_0.1.0-beta.4_aarch64.dmg"
+      "name": "macos-aarch64-DevClash_0.1.0-beta.5_aarch64.dmg",
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.5/macos-aarch64-DevClash_0.1.0-beta.5_aarch64.dmg"
     },
     {
       "platform": "macos",
       "arch": "x86_64",
       "kind": "dmg",
-      "name": "macos-x86_64-DevClash_0.1.0-beta.4_x64.dmg",
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.4/macos-x86_64-DevClash_0.1.0-beta.4_x64.dmg"
+      "name": "macos-x86_64-DevClash_0.1.0-beta.5_x64.dmg",
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.5/macos-x86_64-DevClash_0.1.0-beta.5_x64.dmg"
     },
     {
       "platform": "windows",
       "arch": "x86_64",
       "kind": "nsis",
-      "name": "windows-x86_64-DevClash_0.1.0-beta.4_x64-setup.exe",
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.4/windows-x86_64-DevClash_0.1.0-beta.4_x64-setup.exe"
+      "name": "windows-x86_64-DevClash_0.1.0-beta.5_x64-setup.exe",
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.5/windows-x86_64-DevClash_0.1.0-beta.5_x64-setup.exe"
     },
     {
       "platform": "linux",
       "arch": "x86_64",
       "kind": "AppImage",
-      "name": "linux-x86_64-DevClash_0.1.0-beta.4_amd64.AppImage",
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.4/linux-x86_64-DevClash_0.1.0-beta.4_amd64.AppImage"
+      "name": "linux-x86_64-DevClash_0.1.0-beta.5_amd64.AppImage",
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.5/linux-x86_64-DevClash_0.1.0-beta.5_amd64.AppImage"
     },
     {
       "platform": "linux",
       "arch": "x86_64",
       "kind": "deb",
-      "name": "linux-x86_64-DevClash_0.1.0-beta.4_amd64.deb",
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.4/linux-x86_64-DevClash_0.1.0-beta.4_amd64.deb"
+      "name": "linux-x86_64-DevClash_0.1.0-beta.5_amd64.deb",
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.5/linux-x86_64-DevClash_0.1.0-beta.5_amd64.deb"
     }
   ]
 }
