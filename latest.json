@@ -1,31 +1,31 @@
 {
-  "version": "0.1.0-beta.6",
-  "notes": "# DevClash 0.1.0-beta.6\n\nSecurity update for macOS, Windows and Linux.\n\n- Protect local usage and settings files with owner-only permissions on Unix systems, including existing files when accessed.\n- Reject symlink and hardlink targets before writing local data files.\n- Include the GLib security fix used by the Linux desktop dependency stack.\n- Preserve existing account sessions, preferences and cloud-sync consent during upgrades.\n\nCloud credits use automatic eligibility checks with no daily earning cap. Timely usage remains convertible; late uploads remain in full token history. Provider credentials stay on the device. The deployed API enforces this policy independently of the desktop update.\n\nThis remains a beta. Platform signing, installation and update evidence is recorded with the release artifacts.\n\nBuilt locally on native hosts. Source commit: 461655d285176a1b67effe2c5c3696463d95314c.\n\nRelease verification: all native builds, updater signatures, macOS notarization, and Windows Authenticode checks passed. Apple Silicon installation, login/settings preservation, and Windows installation/removal were checked. Full device coverage remains incomplete, including physical Intel Mac testing and fresh Linux installation/update cycles. This beta is published with the owner\u2019s explicit approval of those coverage exceptions.\n",
-  "pub_date": "2026-10-14T14:41:21.234274+00:00",
+  "version": "0.1.0-beta.7",
+  "notes": "# DevClash 0.1.0-beta.7\n\nJoin the leaderboard directly from the desktop app on macOS, Windows and Linux.\n\n- Add a clear leaderboard invitation and guided browser connection.\n- Enable cloud sync for joining only after your explicit confirmation is returned by the server.\n- Keep joining actionable while confirmation is pending, and distinguish joined accounts awaiting eligible usage from ranked accounts.\n- Carry forward beta.6 local-storage protections, the Linux GLib fix and cloud-sync retry improvements.\n- Keep the ready-to-restart update notice above the footer so account and Share controls remain accessible.\n- Preserve existing account sessions, display preferences and sync consent during upgrades.\n\nThis remains a beta. Signed packages and matching reviewed desktop source are published together.\n\nBuilt locally on native hosts. Source commit: 1842e33c423010d6acb12376a63fc6501391d378.\n",
+  "pub_date": "2026-10-14T17:56:20.953757+00:00",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.6/macos-aarch64-DevClash.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ekIyQzRuZUh4VHVxWmkrTWVsOW0wdVplemlKenloQTUrbzJaNzVvNG4wdU02Znp5ZUY4UnczMjhwZ04xcThTbCtDNFMvaUlSRjhFZ2gyOEtqYWNLZFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTg1NTcxCWZpbGU6RGV2Q2xhc2guYXBwLnRhci5negl2ZXJzaW9uOjAuMS4wLWJldGEuNgpTSDRMWHlGSWowbVRaRnc0SGxYcllQd1BTcTVPVElTeXI5UEZRbmExNWxYajJYbytuSk91NkxNMkx2Vll4R3BSMEJtMDd5SHNESGdSTjNuVUdpK2RDZz09Cg=="
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.7/macos-aarch64-DevClash.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ekpVSGZ0SkFIWTg2WXRoVVEwQUdueHl5YlVnTTRoZ3ZNSHRhWFBzUWZXVXVkb0FiMDE1bmc4UUs1SE1CVTlnZjUxSEFjelozaGplL0tLWUZRbE9ibVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTk5MzU3CWZpbGU6RGV2Q2xhc2guYXBwLnRhci5negl2ZXJzaW9uOjAuMS4wLWJldGEuNwp0ZkRGbyt2TjFKdUZzclUvdU1sWEowejczTHlJVGV5Yy9XdGFpdjJWZVowcmw2SUVMVzlXUFg5V2plRFVvWFZERnd5VXp1RjBucXc2U2ttcGQ3Z1NDQT09Cg=="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.6/macos-x86_64-DevClash.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ektOaU1JWUhyU1hGdVNKeWNTcm9OY0lueW8rU2E0ZmZlQVFwOGwyaVYvYWxFN1lzbDk5bkZ0QkNUUmpzZWNUZ3hDUnhzekZPT0g2WWJ6R2IzVEZUOVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTg1NzM2CWZpbGU6RGV2Q2xhc2guYXBwLnRhci5negl2ZXJzaW9uOjAuMS4wLWJldGEuNgoxMHdCM2xqVlN5RzRlVVZydVJ4ekVMVEJmNGZxUzhZK3VtV1R2VzJUQlRvWjVnZDkyL1RIaXVrOUoxdUc0WkwzOEkyc2g4RWNJenUxVHYyL1RzQ2FCZz09Cg=="
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.7/macos-x86_64-DevClash.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2elBsTzMyN1d2YWQyYm1USzFDV3pucHBPRDlteTE3clZwRnhWTEJ6bEJmc3N2S1BiMW11ZzZ1NjNRWThDUUovVmZRUyt3MmJtdlB5RnkyRHdTeTkyYUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTk5NTA2CWZpbGU6RGV2Q2xhc2guYXBwLnRhci5negl2ZXJzaW9uOjAuMS4wLWJldGEuNwpZbktBb0lrbUt3Ynk0ZURGZTBlVXdIcGVIV2tjc0twWXduN0FOWXlIRlI0SVlLZFcwdHorNlREYTFnK24ybjNTNy9ldVozdm8xN0lkMVlhaDZIYVVDUT09Cg=="
     },
     "windows-x86_64": {
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.6/windows-x86_64-DevClash_0.1.0-beta.6_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ekpDbzEyODVXNlpNZERnMGNHazNocGFuN3IwVG5UOG1KN09wcWNYc0tGMWowWHJKdjI5Tml4YkZxRHY0dElYQVAxNkNJUXdlVnc5b1lJLzQ1YWcwcVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTg2NzA0CWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS42X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMC1iZXRhLjYKOFlOTUZodko2eGJmYVZsa1R4WUVRbTBzVnVLWjB0VFFzMW5vdlpyWmF3aktrVE85dTh5aTFPK1dWejhUWWkyRWphTGhraWlYTVh1YlN2V2pob3B0QkE9PQo="
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.7/windows-x86_64-DevClash_0.1.0-beta.7_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ekRWaXFmODRFMFl2a0ZWZkFIOVJsUGFkbUFWb1VkNmNBWG80SExnR1RodldWaEdGeHMxdS9peE1UUGZYdnRuVnBEUkNYTkFsdUZNTmNsUmNuSkh1WHdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTk5NDYyCWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS43X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMC1iZXRhLjcKK0R4QXlrOTV0aFkyVEVMZHNJdHROZnFOMklwa044eVcxWlhOM1pVRXVuRXUyVHhTcWl4b0dLaWNxdDd5dGlzbmZzL2tXK3pCZ2k0c3FFVkFLa01FRHc9PQo="
     },
     "linux-x86_64-appimage": {
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.6/linux-x86_64-DevClash_0.1.0-beta.6_amd64.AppImage",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ekhxRnVDcmMvOWphRXhZNnVYWmVCOURwc01PTHBVa294a3dVUU5rZ1JtMnhpZ3ROU0ZSSFg2OWY3dHFnL0xHU3ZVTy9hQkxmdjU2bWRWVnBEZE5uNUFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTg4ODQ4CWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS42X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjAtYmV0YS42CmQzYjlwMzhHemV0dGo0aUgvUDMxdXVWZUh3MTZ3UHJBenZxb3VJREtGcVBMdnM2UUNDNTZiRkF5QlJvblllNjlZWlMrUlBMazFqbFk0RFI5K3k2OUN3PT0K"
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.7/linux-x86_64-DevClash_0.1.0-beta.7_amd64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2elBoZ1lKU2F1ZTBzQ0tCR0NyQVFUNUNUWllBUFN6L043VFh0Q0JtNE4xRUUxYVdhbEVIeVNIclQ3L295QktDUURNRTBZNVU3WU5YRVJPN2QzZ21RUXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDAwMzgwCWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS43X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjAtYmV0YS43Ci9lT0t3ZThUSVI1NUNWaGhsMzF5VEpDYVRqWHR4SWlqckU2bmlRYWt1ZzBYY1pTcWRPVWo5Tnl3eXZMY2J1M1pMU1BJVDlPZDJQeHRGTWhCRGlNV0N3PT0K"
     },
     "linux-x86_64-deb": {
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.6/linux-x86_64-DevClash_0.1.0-beta.6_amd64.deb",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ekg3QzM5SkthNkVhTGgzcVJvb3ROcE5yZkVPVjl1TkRyall3S0VtOEdxV29ZOXVKcUtFTytjeVlJdXcwaGVPZ0pvTXpzS25YbUJYdDRSSGEyUmN2OFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTg4ODQ4CWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS42X2FtZDY0LmRlYgl2ZXJzaW9uOjAuMS4wLWJldGEuNgpIcHF6Wmp6bUJ0SmVsM2hwbUhaa25WcWtHYXgyN3ZqK2JSMFo4cUk3VklWN3VPNUtwMlhxQ2Izd3JmL0pOaThHUzVmRXkrNG4zSkhFWUJpQjJhQzhEQT09Cg=="
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.7/linux-x86_64-DevClash_0.1.0-beta.7_amd64.deb",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ekM1d0h6bkdqdzBWM2RYSDVFbTNuVjEzN3BZSStYOEJCK2paK2tFNktqR1N2ckVGb2NMaUhkVmxUb1ZaNHJGTVppOEJiR1FUZEpjYmp0Siswa0JhZ1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDAwMzc5CWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS43X2FtZDY0LmRlYgl2ZXJzaW9uOjAuMS4wLWJldGEuNwovYkxieTRuS2dOMGs2dnM1KzcybWUxUFdKWGxKM3ZhRU50Qm54VnJqM3Jrd0RLRDY3dExlVFE1bHozOEVuVC9YeXE3Q1RYQXJLcFFjcGhZZUtxQzFBdz09Cg=="
     },
     "linux-x86_64": {
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.6/linux-x86_64-DevClash_0.1.0-beta.6_amd64.AppImage",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2ekhxRnVDcmMvOWphRXhZNnVYWmVCOURwc01PTHBVa294a3dVUU5rZ1JtMnhpZ3ROU0ZSSFg2OWY3dHFnL0xHU3ZVTy9hQkxmdjU2bWRWVnBEZE5uNUFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTg4ODQ4CWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS42X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjAtYmV0YS42CmQzYjlwMzhHemV0dGo0aUgvUDMxdXVWZUh3MTZ3UHJBenZxb3VJREtGcVBMdnM2UUNDNTZiRkF5QlJvblllNjlZWlMrUlBMazFqbFk0RFI5K3k2OUN3PT0K"
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.7/linux-x86_64-DevClash_0.1.0-beta.7_amd64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUkg3c0Ryd2Z2elBoZ1lKU2F1ZTBzQ0tCR0NyQVFUNUNUWllBUFN6L043VFh0Q0JtNE4xRUUxYVdhbEVIeVNIclQ3L295QktDUURNRTBZNVU3WU5YRVJPN2QzZ21RUXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDAwMzgwCWZpbGU6RGV2Q2xhc2hfMC4xLjAtYmV0YS43X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4xLjAtYmV0YS43Ci9lT0t3ZThUSVI1NUNWaGhsMzF5VEpDYVRqWHR4SWlqckU2bmlRYWt1ZzBYY1pTcWRPVWo5Tnl3eXZMY2J1M1pMU1BJVDlPZDJQeHRGTWhCRGlNV0N3PT0K"
     }
   },
   "downloads": [
@@ -33,36 +33,36 @@
       "platform": "macos",
       "arch": "aarch64",
       "kind": "dmg",
-      "name": "macos-aarch64-DevClash_0.1.0-beta.6_aarch64.dmg",
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.6/macos-aarch64-DevClash_0.1.0-beta.6_aarch64.dmg"
+      "name": "macos-aarch64-DevClash_0.1.0-beta.7_aarch64.dmg",
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.7/macos-aarch64-DevClash_0.1.0-beta.7_aarch64.dmg"
     },
     {
       "platform": "macos",
       "arch": "x86_64",
       "kind": "dmg",
-      "name": "macos-x86_64-DevClash_0.1.0-beta.6_x64.dmg",
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.6/macos-x86_64-DevClash_0.1.0-beta.6_x64.dmg"
+      "name": "macos-x86_64-DevClash_0.1.0-beta.7_x64.dmg",
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.7/macos-x86_64-DevClash_0.1.0-beta.7_x64.dmg"
     },
     {
       "platform": "windows",
       "arch": "x86_64",
       "kind": "nsis",
-      "name": "windows-x86_64-DevClash_0.1.0-beta.6_x64-setup.exe",
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.6/windows-x86_64-DevClash_0.1.0-beta.6_x64-setup.exe"
+      "name": "windows-x86_64-DevClash_0.1.0-beta.7_x64-setup.exe",
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.7/windows-x86_64-DevClash_0.1.0-beta.7_x64-setup.exe"
     },
     {
       "platform": "linux",
       "arch": "x86_64",
       "kind": "AppImage",
-      "name": "linux-x86_64-DevClash_0.1.0-beta.6_amd64.AppImage",
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.6/linux-x86_64-DevClash_0.1.0-beta.6_amd64.AppImage"
+      "name": "linux-x86_64-DevClash_0.1.0-beta.7_amd64.AppImage",
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.7/linux-x86_64-DevClash_0.1.0-beta.7_amd64.AppImage"
     },
     {
       "platform": "linux",
       "arch": "x86_64",
       "kind": "deb",
-      "name": "linux-x86_64-DevClash_0.1.0-beta.6_amd64.deb",
-      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.6/linux-x86_64-DevClash_0.1.0-beta.6_amd64.deb"
+      "name": "linux-x86_64-DevClash_0.1.0-beta.7_amd64.deb",
+      "url": "https://github.com/ccycv/devclash-releases/releases/download/v0.1.0-beta.7/linux-x86_64-DevClash_0.1.0-beta.7_amd64.deb"
     }
   ]
 }
